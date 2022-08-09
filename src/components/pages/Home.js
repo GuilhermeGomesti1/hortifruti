@@ -19,16 +19,16 @@ function Home() {
             fetch(`https://www.fruityvice.com/api/fruit/family/${text}`)
 
 
-            .then((response) => response.json())
-            .then((response) => {
+                .then((response) => response.json())
+                .then((response) => {
 
 
-                setInfo(response)
+                    setInfo(response)
 
 
 
 
-            }).catch(() => { setInfo([]) })
+                }).catch(() => { setInfo([]) })
             return
 
         }
@@ -69,16 +69,16 @@ function Home() {
 
 
                         <div>
-                           
-                            
-                         </div>
-                        {info.map((item) => { 
+
+
+                        </div>
+                        {info.map((item) => {
                             return <div key={item.name}>
-                                 
+
                                 <h2 className={styles.fruta}>{item.name} <FaShoppingCart className={styles.cartItem}></FaShoppingCart></h2>
-                                
-                               
-                               
+
+
+
 
 
                             </div>
