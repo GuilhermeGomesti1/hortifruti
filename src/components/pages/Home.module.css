@@ -1,0 +1,84 @@
+.home_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em;
+}
+
+.home_container h1 {
+    color: #4D700C;
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.295);
+
+
+}
+
+.home_container h1 span {
+    color: #87BC28;
+    padding: 0 0.2em;
+    text-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.295);
+
+}
+
+.home_container p {
+    margin-bottom: 0.5em;
+    color: #4D700C;
+    font-weight: bold;
+
+}
+
+.posts-container h2 {
+    background-color: #c7daa5;
+
+}
+
+.input {
+    background-color: #e8f5d06b;
+
+    text-align: center;
+    padding: 05px;
+    margin: 42px;
+    border-radius: 5px;
+
+
+}
+
+
+
+
+.fruta {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #4D700C;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    padding: 30px;
+    flex-wrap: wrap;
+    background-color: #ccf384;
+    width: 100%;
+}
+
+
+
+
+
+.cartItem {
+    background-color: #e7a49f69;
+    color: black;
+    width: 80px;
+    border-radius: 75%;
+    position: relative;
+
+}
+
+.cartItem:hover {
+    color: #4D700C;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.2);
+}

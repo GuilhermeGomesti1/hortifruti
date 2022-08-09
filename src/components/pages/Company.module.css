@@ -1,0 +1,35 @@
+.company_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     padding: 4em;
+     background-color: white;
+}
+
+
+
+
+.company_container h1 {
+    color: #4D700C; 
+    font-size: 2.5em;
+    margin-bottom:  .5em;
+    text-shadow: 0.2px 0.2px 0.2px rgba(0, 0, 0, 0.295);
+
+
+}
+
+
+.company_container p {
+    width: 60%;
+    margin: 1.5em ;
+    color: #4D700C;
+    font-weight: bold;
+    text-align: justify;
+    letter-spacing: 0.5px;
+   
+}
+
+.company_container img {
+
+}
