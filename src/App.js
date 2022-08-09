@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route,  } from 'react-router-dom'
 
 import Home from './components/pages/Home';
 import Contact from './components/pages/Contact';
@@ -7,8 +7,6 @@ import Cart from './components/pages/Cart';
 import Container from './components/layout/Container';
 import Navbar from './components/layout/Navbar'
 import Footer from './components//layout/Footer'
-import React, { useEffect, useRef, useState } from 'react';
-import CartContext from './components/pages/CartContext';
 
 
 function App() {
